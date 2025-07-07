@@ -9633,7 +9633,7 @@ function io() {
     return window.innerWidth <= 640 ? 6e3 : 5e3
 }
 function Gp() {
-    return window.innerWidth <= 640 ? 400 : 600
+    return window.innerWidth <= 640 ? 300 : 450
 }
 function fs(e, t) {
     const n = e.getBoundingClientRect()
