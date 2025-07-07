@@ -9381,11 +9381,11 @@ function kp() {
 function bi() {
     return wp(kp)
 }
-const Ec = new Audio("/assets/sound-effects/clicked-go-and-wedding-site.ogg")
-  , Ln = new Audio("/assets/sound-effects/clicked-ok-and-skip-and-player.ogg")
-  , Sp = new Audio("/assets/sound-effects/collect.ogg")
-  , _p = new Audio("/assets/sound-effects/hit-rock.ogg")
-  , ri = new Audio("/assets/soundtrack.mp3");
+const Ec = new Audio("vividzhangwedding/assets/sound-effects/clicked-go-and-wedding-site.ogg")
+  , Ln = new Audio("vividzhangwedding/assets/sound-effects/clicked-ok-and-skip-and-player.ogg")
+  , Sp = new Audio("vividzhangwedding/assets/sound-effects/collect.ogg")
+  , _p = new Audio("vividzhangwedding/assets/sound-effects/hit-rock.ogg")
+  , ri = new Audio("vividzhangwedding/assets/soundtrack.mp3");
 ri.loop = !0;
 const Ep = "_skipButton_11xis_1"
   , Cp = {
