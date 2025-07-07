@@ -396,8 +396,8 @@
 ._okButton_16pug_1 {
     background-image: url(/vividzhangwedding/assets/ok.png);
     background-size: cover;
-    height: 113px;
-    width: 214px
+    height: 98px;
+    width: 100%
 }
 
 ._okButton_16pug_1:disabled {
@@ -450,13 +450,13 @@
 }
 
 ._intro_k06wi_28 {
-    max-width: 700px;
+    max-width: 600px;
     width: 100%
 }
 
 ._text_k06wi_33 {
     margin-top: 44px;
-    max-width: 560px;
+    max-width: 500px;
     width: 100%
 }
 
