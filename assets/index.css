@@ -1,0 +1,648 @@
+#root {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%
+}
+
+.buttonPlain {
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent
+}
+
+.buttonPlain:focus {
+    outline: none
+}
+
+.buttonPlain:hover {
+    cursor: pointer
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter .3s
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa)
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa)
+}
+
+@keyframes logo-spin {
+    0% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear
+    }
+}
+
+.card {
+    padding: 2em
+}
+
+.read-the-docs {
+    color: #888
+}
+
+._buttons_1ips9_1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+._chooseYourPlayer_1ips9_8 {
+    width: 569px
+}
+
+._container_1ips9_12 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1400px;
+    padding: 32px;
+    row-gap: 46px;
+    width: 100%
+}
+
+._containerOuter_1ips9_23 {
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(/assets/background.png);
+    background-size: 100% 70vh;
+    background-position: bottom;
+    display: flex;
+    min-height: 100%;
+    width: 100%
+}
+
+._katherineBackground_1ips9_34 {
+    background-image: url(/assets/katherine-background.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1
+}
+
+._mattBackground_1ips9_41 {
+    background-image: url(/assets/matt-background.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1
+}
+
+._playerBackground_1ips9_48 {
+    position: relative;
+    z-index: 1
+}
+
+._playerBackground_1ips9_48,._playerGif_1ips9_53,._sparkle_1ips9_53 {
+    height: 579px;
+    width: 380px
+}
+
+._playerBackground_1ips9_48:hover {
+    cursor: pointer
+}
+
+._playerBackground_1ips9_48:active ._sparkle_1ips9_53 {
+    display: block
+}
+
+@media (hover: hover) {
+    ._playerBackground_1ips9_48:hover ._sparkle_1ips9_53 {
+        display:block
+    }
+}
+
+._playerGif_1ips9_53 {
+    position: relative;
+    z-index: 1
+}
+
+._players_1ips9_77 {
+    display: flex;
+    column-gap: 50px;
+    justify-content: center
+}
+
+._selected_1ips9_83 {
+    background-image: url(/assets/click-highlight.png);
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0
+}
+
+._sparkle_1ips9_53 {
+    display: none;
+    background-image: url(/assets/sparkle.gif);
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+@media only screen and (max-width: 900px) {
+    ._buttons_1ips9_1 {
+        flex-direction:column;
+        row-gap: 32px;
+        margin-top: 36px
+    }
+
+    ._chooseYourPlayer_1ips9_8 {
+        width: 330px
+    }
+
+    ._container_1ips9_12 {
+        padding: 32px 12px;
+        row-gap: 12px
+    }
+
+    ._containerOuter_1ips9_23 {
+        background-size: auto
+    }
+
+    ._playerBackground_1ips9_48,._playerGif_1ips9_53,._sparkle_1ips9_53 {
+        height: calc(579px * .8);
+        width: 304px
+    }
+
+    ._players_1ips9_77 {
+        flex-direction: column;
+        row-gap: 12px
+    }
+
+    ._skipButtonHidden_1ips9_135 {
+        display: none
+    }
+}
+
+._skipButton_11xis_1 {
+    background-image: url(/assets/skip.png);
+    background-size: cover;
+    height: 55px;
+    width: 200px
+}
+
+._skipButton_11xis_1:active {
+    background-image: url(/assets/skip-hover.png)
+}
+
+@media (hover: hover) {
+    ._skipButton_11xis_1:hover {
+        background-image:url(/assets/skip-hover.png)
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    ._skipButton_11xis_1 {
+        height:36.4px;
+        width: 117.6px
+    }
+}
+
+._goButton_psgks_1 {
+    background-image: url(/assets/go.png);
+    background-size: contain;
+    height: 87px;
+    width: 214px
+}
+
+._goButton_psgks_1:disabled {
+    cursor: default;
+    opacity: .48
+}
+
+._goButton_psgks_1:enabled:active {
+    background-image: url(/assets/go-hover.png)
+}
+
+@media (hover: hover) {
+    ._goButton_psgks_1:enabled:hover {
+        background-image:url(/assets/go-hover.png)
+    }
+}
+
+._clouds_1ow5c_1 {
+    background: url(/assets/background/clouds.png) repeat-x;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 100%;
+    position: absolute;
+    width: 6000px;
+    will-change: transform
+}
+
+._ground_1ow5c_11 {
+    background: url(/assets/background/ground.png) repeat-x;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 100%;
+    position: absolute;
+    width: 6000px;
+    will-change: transform
+}
+
+._player_1mowd_1 {
+    background-image: url(/assets/players/matt-all-spritesheet.png);
+    background-size: cover;
+    bottom: 70px;
+    left: 50px;
+    position: absolute;
+    z-index: 1
+}
+
+@media only screen and (max-width: 640px) {
+    ._player_1mowd_1 {
+        left:4px
+    }
+}
+
+._berriesFlex_cv0dz_1 {
+    align-items: center;
+    column-gap: 12px;
+    display: flex
+}
+
+._berry_cv0dz_7 {
+    width: 30px
+}
+
+._collect_cv0dz_11 {
+    width: 200px
+}
+
+._collectFlex_cv0dz_15 {
+    align-items: center;
+    column-gap: 24px;
+    display: flex
+}
+
+._container_cv0dz_21 {
+    left: 50px;
+    position: absolute;
+    top: 50px
+}
+
+@media only screen and (max-width: 640px) {
+    ._berriesFlex_cv0dz_1 {
+        column-gap:6px
+    }
+
+    ._collect_cv0dz_11 {
+        margin-left: -6px;
+        width: 150px
+    }
+
+    ._collectFlex_cv0dz_15 {
+        align-items: flex-start;
+        flex-direction: column;
+        row-gap: 12px
+    }
+
+    ._berry_cv0dz_7 {
+        width: 20px
+    }
+
+    ._container_cv0dz_21 {
+        left: 16px;
+        top: 16px
+    }
+}
+
+._rock_fzw9f_1 {
+    width: 150px
+}
+
+@media only screen and (max-width: 640px) {
+    ._rock_fzw9f_1 {
+        width:100px
+    }
+}
+
+._container_40702_1 {
+    height: 100%;
+    position: absolute;
+    width: 100%
+}
+
+._rockContainer_40702_7 {
+    bottom: 50px;
+    right: -130px;
+    position: absolute
+}
+
+._container_1l7jf_1 {
+    background-color: #ddf9f2;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+._container_9vye5_1 {
+    height: 100%;
+    position: absolute;
+    width: 100%
+}
+
+._berryContainer_9vye5_7 {
+    right: -70px;
+    position: absolute
+}
+
+@keyframes _fadeIn_gp9ol_1 {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+._player_gp9ol_6 {
+    bottom: 70px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    animation-duration: 1s;
+    animation-name: _fadeIn_gp9ol_1;
+    animation-fill-mode: forwards
+}
+
+._okButton_16pug_1 {
+    background-image: url(/assets/ok.png);
+    background-size: cover;
+    height: 113px;
+    width: 214px
+}
+
+._okButton_16pug_1:disabled {
+    cursor: default;
+    opacity: .48
+}
+
+._okButton_16pug_1:enabled:active {
+    background-image: url(/assets/ok-hover.png)
+}
+
+@media (hover: hover) {
+    ._okButton_16pug_1:enabled:hover {
+        background-image:url(/assets/ok-hover.png)
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    ._okButton_16pug_1 {
+        height:60.9px;
+        width: calc(214px * .7)
+    }
+}
+
+._buttons_k06wi_1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    width: 100%
+}
+
+._container_k06wi_9 {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    margin: auto;
+    max-width: 1400px;
+    width: 100%
+}
+
+._containerOuter_k06wi_20 {
+    background-color: #6d91c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%
+}
+
+._intro_k06wi_28 {
+    max-width: 700px;
+    width: 100%
+}
+
+._text_k06wi_33 {
+    margin-top: 44px;
+    max-width: 560px;
+    width: 100%
+}
+
+._title_k06wi_39 {
+    margin-top: 32px;
+    max-width: 484px;
+    width: 100%
+}
+
+@media only screen and (max-width: 900px) {
+    ._buttons_k06wi_1 {
+        flex-direction:column;
+        row-gap: 32px;
+        margin-top: 36px
+    }
+
+    ._skipButtonHidden_k06wi_52 {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    ._text_k06wi_33 {
+        margin-top:24px
+    }
+
+    ._title_k06wi_39 {
+        margin-top: 16px
+    }
+}
+
+@keyframes _fadeIn_ogqkz_1 {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+._container_ogqkz_6 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 32px
+}
+
+._containerOuter_ogqkz_13 {
+    background-color: #6d91c2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    animation-duration: 2s;
+    animation-name: _fadeIn_ogqkz_1;
+    animation-fill-mode: forwards
+}
+
+._credits_ogqkz_25 {
+    margin-top: 48px;
+    max-width: 621px;
+    width: 100%
+}
+
+._weddingSiteButton_ogqkz_31 {
+    background-image: url(/assets/end/wedding-site-button.png);
+    background-size: contain;
+    height: 87px;
+    margin-top: 90px;
+    max-width: 558px;
+    width: 100%
+}
+
+._weddingSiteButton_ogqkz_31:disabled {
+    cursor: default;
+    opacity: .48
+}
+
+._weddingSiteButton_ogqkz_31:enabled:active {
+    background-image: url(/assets/end/wedding-site-button-hover.png)
+}
+
+@media (hover: hover) {
+    ._weddingSiteButton_ogqkz_31:enabled:hover {
+        background-image:url(/assets/end/wedding-site-button-hover.png)
+    }
+}
+
+._text_ogqkz_55 {
+    margin-top: 4px;
+    max-width: 600px;
+    width: 100%
+}
+
+._title_ogqkz_61 {
+    max-width: 689px;
+    width: 100%
+}
+
+@media only screen and (max-width: 768px) {
+    ._weddingSiteButton_ogqkz_31 {
+        height:47.85px;
+        margin-top: 32px;
+        width: calc(558px * .55)
+    }
+}
+
+:root {
+    font-family: Inter,system-ui,Avenir,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: #ffffffde;
+    background-color: #242424;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit
+}
+
+a:hover {
+    color: #535bf2
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    place-items: center;
+    min-width: 320px
+}
+
+html {
+    height: 100%
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color .25s
+}
+
+button:hover {
+    border-color: #646cff
+}
+
+button:focus,button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color:#213547;
+        background-color: #fff
+    }
+
+    a:hover {
+        color: #747bff
+    }
+
+    button {
+        background-color: #f9f9f9
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        height:100svh
+    }
+}
