@@ -9733,7 +9733,7 @@ function Xp({berries: e, isRingCollected: t, player: n, rocks: r, setIsRingColle
         className: $p.player,
         id: cs,
         style: {
-            backgroundImage: n === "matt" ? "url(/assets/players/matt-all-spritesheet.png)" : "url(/assets/players/katherine-all-spritesheet.png)",
+            backgroundImage: n === "matt" ? "url(/vividzhangwedding/assets/players/matt-all-spritesheet.png)" : "url(/vividzhangwedding/assets/players/katherine-all-spritesheet.png)",
             backgroundPosition: `-${D * v}px 0`,
             height: v * 1.6869,
             transform: `translate(${Math.min(i, document.body.clientWidth - v * 2.2)}px, ${s}px)`,
