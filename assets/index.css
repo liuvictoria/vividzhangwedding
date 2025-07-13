@@ -111,7 +111,8 @@
 
 ._playerBackground_1ips9_48 {
     position: relative;
-    z-index: 1
+    z-index: 1;
+    top: 30%
 }
 
 ._playerBackground_1ips9_48,._playerGif_1ips9_53,._sparkle_1ips9_53 {
