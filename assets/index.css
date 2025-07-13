@@ -95,14 +95,14 @@
 
 ._containerOuter_1ips9_23 {
     align-items: center;
-    background-image: url(/vividzhangwedding/assets/background.png) repeat-x;
+    background-repeat: no-repeat;
+    background-image: url(/vividzhangwedding/assets/background.png);
+    background-size: 100% 70vh;
     background-position: bottom;
-    background-repeat: repeat-x;
     display: flex;
     height: 100%;
     position: absolute;
     width: 6000px;
-        /* will-change: transform */
 }
 
 ._katherineBackground_1ips9_34 {
