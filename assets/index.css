@@ -94,12 +94,14 @@
 } */
 
 ._containerOuter_1ips9_23 {
-    background: url(/vividzhangwedding/assets/background/ground.png) repeat-x;
-        background-position: bottom;
-        background-repeat: repeat-x;
-        height: 100%;
-        position: absolute;
-        width: 6000px;
+    align-items: center;
+    background-image: url(/vividzhangwedding/assets/background.png) repeat-x;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 6000px;
         /* will-change: transform */
 }
 
