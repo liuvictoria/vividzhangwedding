@@ -9563,9 +9563,6 @@ function Dp({groundSpeedRef: e}) {
     , []),
     he(tf, {
         children: [_("div", {
-            ref: t,
-            className: as.clouds
-        }), _("div", {
             ref: n,
             className: as.ground
         })]
