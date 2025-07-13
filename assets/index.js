@@ -9532,10 +9532,8 @@ function Ip({alignItems: e, children: t, className: n, flexDirection: r="row", g
         children: t
     })
 }
-const Mp = "_clouds_1ow5c_1"
-  , Fp = "_ground_1ow5c_11"
-  , as = {
-    clouds: Mp,
+const Fp = "_ground_1ow5c_11"
+const as = {
     ground: Fp
 };
 function Dp({groundSpeedRef: e}) {
