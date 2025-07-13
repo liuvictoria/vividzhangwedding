@@ -93,17 +93,6 @@
     width: 100%
 }
 
-/* ._containerOuter_1ips9_23 {
-    align-items: center;
-    background-repeat: no-repeat;
-    background-image: url(/vividzhangwedding/assets/background.png);
-    background-size: 100% 70vh;
-    background-position: bottom;
-    display: flex;
-    min-height: 100%;
-    width: 6000px;
-} */
-
 ._katherineBackground_1ips9_34 {
     background-image: url(/vividzhangwedding/assets/katherine-background.png);
     background-size: cover;
@@ -243,7 +232,7 @@
 
 ._goButton_psgks_1:disabled {
     cursor: default;
-    opacity: .8
+    opacity: .7
 }
 
 ._goButton_psgks_1:enabled:active {
