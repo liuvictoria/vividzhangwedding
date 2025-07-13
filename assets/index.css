@@ -98,8 +98,8 @@
     background-size: cover;
     position: absolute;
     z-index: 1;
-    background-position: bottom;
-    bottom: 10%
+    background-position: top;
+    bottom: 30%
 }
 
 ._mattBackground_1ips9_41 {
