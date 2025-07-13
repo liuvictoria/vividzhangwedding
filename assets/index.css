@@ -82,7 +82,7 @@
     width: 100%
 }
 
-._containerOuter_1ips9_23 {
+/* ._containerOuter_1ips9_23 {
     align-items: center;
     background-repeat: no-repeat;
     background-image: url(/vividzhangwedding/assets/background.png);
@@ -91,6 +91,16 @@
     display: flex;
     min-height: 100%;
     width: 100%
+} */
+
+._containerOuter_1ips9_23 {
+    background: url(/vividzhangwedding/assets/background/ground.png) repeat-x;
+        background-position: bottom;
+        background-repeat: repeat-x;
+        height: 100%;
+        position: absolute;
+        width: 6000px;
+        /* will-change: transform */
 }
 
 ._katherineBackground_1ips9_34 {
