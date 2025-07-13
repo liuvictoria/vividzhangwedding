@@ -97,14 +97,16 @@
     background-image: url(/vividzhangwedding/assets/katherine-background.png);
     background-size: cover;
     position: relative;
-    z-index: 1
+    z-index: 1;
+    top: 30%
 }
 
 ._mattBackground_1ips9_41 {
     background-image: url(/vividzhangwedding/assets/matt-background.png);
     background-size: cover;
     position: relative;
-    z-index: 1
+    z-index: 1;
+    top: 30%
 }
 
 ._playerBackground_1ips9_48 {
