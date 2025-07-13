@@ -100,7 +100,7 @@
     background-size: 100% 70vh;
     background-position: bottom;
     display: flex;
-    height: 100%;
+    min-height: 100%;
     width: 6000px;
 }
 
