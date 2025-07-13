@@ -9341,7 +9341,7 @@ const up = "_buttons_1ips9_1"
   , dp = "_mattBackground_1ips9_41"
   , pp = "_playerBackground_1ips9_48"
   , mp = "_playerGif_1ips9_53"
-  , hp = "_sparkle_1ips9_53"
+//   , hp = "_sparkle_1ips9_53"
   , vp = "_players_1ips9_77"
   , yp = "_selected_1ips9_83"
   , gp = "_skipButtonHidden_1ips9_135"
@@ -9354,7 +9354,7 @@ const up = "_buttons_1ips9_1"
     mattBackground: dp,
     playerBackground: pp,
     playerGif: mp,
-    sparkle: hp,
+    // sparkle: hp,
     players: vp,
     selected: yp,
     skipButtonHidden: gp
@@ -9431,9 +9431,11 @@ function Lp({currentFrame: e, isSelected: t, onClick: n}) {
             children: [_(Cc, {
                 currentFrame: e,
                 src: r <= 900 ? "assets/katherine-spritesheet-small.png" : "assets/katherine-spritesheet.png"
-            }), _("div", {
-                className: ae.sparkle
-            })]
+            }), 
+            // _("div", {
+            //     className: ae.sparkle
+            // })
+        ]
         }), t && _("div", {
             className: ae.selected
         })]
@@ -9449,9 +9451,11 @@ function Tp({currentFrame: e, isSelected: t, onClick: n}) {
             children: [_(Cc, {
                 currentFrame: e,
                 src: r <= 900 ? "assets/matt-spritesheet-small.png" : "assets/matt-spritesheet.png"
-            }), _("div", {
-                className: ae.sparkle
-            })]
+            }), 
+            // _("div", {
+            //     className: ae.sparkle
+            // })
+        ]
         }), t && _("div", {
             className: ae.selected
         })]
