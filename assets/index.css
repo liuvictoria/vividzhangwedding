@@ -96,28 +96,16 @@
 ._katherineBackground_1ips9_34 {
     background-image: url(/vividzhangwedding/assets/katherine-background.png);
     background-size: cover;
-    position: absolute;
-    z-index: 1;
-    background-position: top;
-    top: 30%
+    position: relative;
+    z-index: 1
 }
 
 ._mattBackground_1ips9_41 {
     background-image: url(/vividzhangwedding/assets/matt-background.png);
     background-size: cover;
-    position: absolute;
-    z-index: 1;
-    background-position: top;
-    top: 30%
-}
-
-
-/* ._mattBackground_1ips9_41_real {
-    background-image: url(/vividzhangwedding/assets/matt-background.png);
-    background-size: cover;
     position: relative;
     z-index: 1
-} */
+}
 
 ._playerBackground_1ips9_48 {
     position: relative;
