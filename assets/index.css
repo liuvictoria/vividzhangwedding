@@ -245,6 +245,16 @@
     }
 }
 
+._clouds_1ow5c_1 {
+    background: url(/vividzhangwedding/assets/background/clouds.png) repeat-x;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 100%;
+    position: absolute;
+    width: 6000px;
+    will-change: transform
+}
+
 ._ground_1ow5c_11 {
     background: url(/vividzhangwedding/assets/background/ground.png) repeat-x;
     background-position: bottom;
