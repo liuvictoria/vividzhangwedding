@@ -139,7 +139,8 @@
 ._players_1ips9_77 {
     display: flex;
     column-gap: 50px;
-    justify-content: center
+    justify-content: center;
+    margin-top: 20%
 }
 
 ._selected_1ips9_83 {
