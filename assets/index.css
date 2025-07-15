@@ -151,7 +151,8 @@
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 0
+    z-index: 0;
+    opacity:.3
 }
 
 ._sparkle_1ips9_53 {
@@ -219,7 +220,7 @@
 
 @media only screen and (max-width: 640px) {
     ._skipButton_11xis_1 {
-        height:36.4px;
+        height:32.4px;
         width: 117.6px
     }
 }
