@@ -9337,8 +9337,8 @@ const up = "_buttons_1ips9_1"
   , sp = "_chooseYourPlayer_1ips9_8"
   , ap = "_container_1ips9_12"
   , cp = "_containerOuter_1ips9_23"
-  , fp = "_katherineBackground_1ips9_34"
-  , dp = "_mattBackground_1ips9_41"
+//   , fp = "_katherineBackground_1ips9_34"
+//   , dp = "_mattBackground_1ips9_41"
   , pp = "_playerBackground_1ips9_48"
   , mp = "_playerGif_1ips9_53"
 //   , hp = "_sparkle_1ips9_53"
@@ -9350,8 +9350,8 @@ const up = "_buttons_1ips9_1"
     chooseYourPlayer: sp,
     container: ap,
     containerOuter: cp,
-    katherineBackground: fp,
-    mattBackground: dp,
+    // katherineBackground: fp,
+    // mattBackground: dp,
     playerBackground: pp,
     playerGif: mp,
     // sparkle: hp,
@@ -9426,7 +9426,7 @@ function Lp({currentFrame: e, isSelected: t, onClick: n}) {
     return he("div", {
         className: yt(ae.playerBackground),
         children: [he("button", {
-            className: yt(ae.katherineBackground, "buttonPlain"),
+            // className: yt(ae.katherineBackground, "buttonPlain"),
             onClick: n,
             children: [_(Cc, {
                 currentFrame: e,
@@ -9446,7 +9446,7 @@ function Tp({currentFrame: e, isSelected: t, onClick: n}) {
     return he("div", {
         className: yt(ae.playerBackground),
         children: [he("button", {
-            className: yt(ae.mattBackground, "buttonPlain"),
+            // className: yt(ae.mattBackground, "buttonPlain"),
             onClick: n,
             children: [_(Cc, {
                 currentFrame: e,
